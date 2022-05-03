@@ -29,4 +29,6 @@ header{
 #logo-text{
     display: inline;
     font-weight: 700;
+    height: 50px;
+    vertical-align: middle;
 }
