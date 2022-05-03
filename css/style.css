@@ -9,6 +9,7 @@ body{
 
 header{
     background-color: white;
+    margin-bottom: 50px;
 }
 
 #header-logo{
@@ -32,8 +33,8 @@ header{
 
 .container{
     width: 70%;
-    margin: 50px auto;
-    padding: 30px 50px;
+    margin: 3px auto;
+    padding: 20px 50px 10px;
     background-color: white;
     border-radius: 5px;
 }
@@ -68,4 +69,47 @@ header{
 #section-button:hover{
     background-color: #b6bbc0;
     color: white;
+}
+
+.toogle{
+    font-size: 35px;
+    vertical-align: text-top;
+}
+
+.title{
+    vertical-align: middle;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.list-item{
+    margin-left: 5px;
+}
+
+.icon-check{
+    color: green;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 100%;
+    padding: 2px 4px;
+    font-size: 10px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.text-item{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.editorial{
+    background-color: #45abea;
+    padding: 4px 8px;
+    color: white;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: #45abea;
+    border-style: solid;
+    font-size: 11px;
 }
