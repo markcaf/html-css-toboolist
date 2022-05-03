@@ -1,6 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 /* Reset */
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f6f8f9;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: white;
+}
+
+#header-logo{
+    width: 95%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#logo{
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+/*non allineato al centro*/
+#logo-text{
+    display: inline;
+    font-weight: 700;
 }
