@@ -48,6 +48,12 @@ header{
     border-style: solid;
 }
 
+/* Hover del primo pulsante Task */
+#task-button:hover{
+    background-color: white;
+    color: #47adf1;
+}
+
 #section-button{
     background-color: white;
     padding: 5px 10px;
@@ -56,4 +62,10 @@ header{
     border-width: 2px;
     border-color: #b6bbc0;
     border-style: solid;
+}
+
+/* Hover del secondo pulsante Section */
+#section-button:hover{
+    background-color: #b6bbc0;
+    color: white;
 }
