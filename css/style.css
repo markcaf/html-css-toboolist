@@ -39,6 +39,15 @@ header{
     border-radius: 5px;
 }
 
+.container-2{
+    width: 70%;
+    margin: 3px auto;
+    padding: 20px 50px 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
 #task-button{
     background-color: #47adf1;
     padding: 5px 10px;
@@ -54,6 +63,7 @@ header{
     background-color: white;
     color: #47adf1;
 }
+/* fine hover */
 
 #section-button{
     background-color: white;
@@ -70,7 +80,9 @@ header{
     background-color: #b6bbc0;
     color: white;
 }
+/* fine hover */
 
+/* Styling degli elementi di sezione */
 .toogle{
     font-size: 35px;
     vertical-align: text-top;
@@ -114,7 +126,9 @@ header{
     vertical-align: middle;
     margin-left: 5px;
 }
+/* Fine elementi di sezione */
 
+/* Styling delle etichette */
 .editorial{
     background-color: #45abea;
     padding: 4px 10px;
@@ -158,3 +172,26 @@ header{
     border-style: solid;
     font-size: 11px;
 }
+
+.website{
+    background-color: #d863a1;
+    padding: 4px 10px;
+    color: white;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: #d863a1;
+    border-style: solid;
+    font-size: 11px;
+}
+
+.sales{
+    background-color: #b0c926;
+    padding: 4px 10px;
+    color: white;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: #b0c926;
+    border-style: solid;
+    font-size: 11px;
+}
+/* fine etichette */
