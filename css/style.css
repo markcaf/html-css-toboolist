@@ -79,11 +79,12 @@ header{
 .title{
     vertical-align: middle;
     margin: 0;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .list-item{
     margin-left: 5px;
+    margin-bottom: 15px;
 }
 
 .icon-check{
@@ -97,6 +98,17 @@ header{
     font-weight: bold;
 }
 
+.icon-cross{
+    color: red;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 100%;
+    padding: 2.3px 4px;
+    font-size: 10px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
 .text-item{
     display: inline-block;
     vertical-align: middle;
@@ -105,11 +117,44 @@ header{
 
 .editorial{
     background-color: #45abea;
-    padding: 4px 8px;
+    padding: 4px 10px;
     color: white;
     border-radius: 15px;
     border-width: 2px;
     border-color: #45abea;
+    border-style: solid;
+    font-size: 11px;
+}
+
+.goals{
+    background-color: #9c72e4;
+    padding: 4px 10px;
+    color: white;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: #9c72e4;
+    border-style: solid;
+    font-size: 11px;
+}
+
+.recruiting{
+    background-color: #64c0a9;
+    padding: 4px 10px;
+    color: white;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: #64c0a9;
+    border-style: solid;
+    font-size: 11px;
+}
+
+.mobile{
+    background-color: #f29e33;
+    padding: 4px 10px;
+    color: white;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: #f29e33;
     border-style: solid;
     font-size: 11px;
 }
